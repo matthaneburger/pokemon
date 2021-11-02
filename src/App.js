@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
+import HeaderImage from './components/HeaderImage/HeaderImage';
 import Card from './components/Card';
 import { getPokemon, getAllPokemon } from './services/pokemon';
 import './App.css';
@@ -55,6 +56,7 @@ function App() {
       <div>
         {loading ? <h1 style={{ textAlign: 'center' }}>Loading...</h1> : (
           <>
+          <HeaderImage />
             <div className="btn">
               <button onClick={prev}>Prev</button>
               <button onClick={next}>Next</button>
