@@ -5,7 +5,7 @@ function HeaderImage(){
     let image = require("./static/download.png")
     return (
         <div>
-            <img className = "pokelogo" src={image.default} alt="poke header image" />
+            <img className = "pokelogo" src={image.default} alt="poke header" />
         </div>
     )
 }
