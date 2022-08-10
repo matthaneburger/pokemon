@@ -1,6 +1,6 @@
-# Created Paginated Pokemon with React Hooks
+# Pagination / PokeAPI
 
-Just me messing around with the PokeAPI (as is tradition with React developers)
+messing around with the PokeAPI
 
 ## Output
 
